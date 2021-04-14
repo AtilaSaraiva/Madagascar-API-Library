@@ -23,7 +23,7 @@ meson setup builddir
 meson compile -C builddir
 ```
 
-If you are fortunate enough to use a Arch Linux distribution, you'll need only to run:
+If you are fortunate enough to use an Arch Linux distribution, you'll need only to run:
 
 ```
 makepkg
