@@ -1,5 +1,7 @@
 sources = ['cub.cc', 'rsf.cc']
 
+subdir('include')
+
 incdirCpp = include_directories('include')
 
 
