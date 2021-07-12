@@ -16,14 +16,14 @@ pkg_mod.generate(libraries : librsf,
                  filebase : 'c_madagapi',
                  description : 'C lang Madagascar API library for devs')
 
-pkg_mod.generate(libraries : [librsfpp,librsf],
+pkg_mod.generate(libraries : [librsfpp],
                  version : '3.2',
                  name : 'cpp_madagapi',
                  requires: 'c_madagapi',
                  filebase : 'cpp_madagapi',
                  description : 'C++ lang Madagascar API library for devs')
 
-pkg_mod.generate(libraries : [librsff90,librsf],
+pkg_mod.generate(libraries : [librsff90],
                  version : '3.2',
                  name : 'f90_madagapi',
                  requires: 'c_madagapi',

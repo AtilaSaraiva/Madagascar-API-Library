@@ -8,6 +8,7 @@ librsff90 = static_library('rsff90',sources,
                     install : true,
                     link_language : 'fortran',
                     c_args : ['-DGFORTRAN','-DNAGf90Fortran'],
-                    f_args : ['-Mpreprocess','-DGFORTRAN','-DNAGf90Fortran'])
+                    #f_args : ['-Mpreprocess','-DGFORTRAN','-DNAGf90Fortran'])
+                    )
 
 librsff90_dep = declare_dependency(link_with : librsff90)
